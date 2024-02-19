@@ -6,3 +6,5 @@ console.log(nome,cognome,colorePreferito);
 const password= nome+cognome+colorePreferito+'24';
 console.log(password);
 
+document.getElementById('creazione-password').innerHTML=
+`<p> ${password} </p>` 
